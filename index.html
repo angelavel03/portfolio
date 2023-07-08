@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+		<script type="text/javascript">
+            (function(){
+                emailjs.init("f6WLxMx-9viXayU57");
+            })();
+        </script>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description">
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<meta name="generator" content={Astro.generator} />
+		<link rel="stylesheet" href="css/style.css">
+        <title>Angela Veljanovska</title>
+        <style>
+            .errormsg {
+                color: red;
+            }
+        </style>
+	</head>
+	<body>
+        <header>
+            <div class="container">
+                <nav>
+                    <div class="logo">
+                        <img src="img/logo.png" alt="">
+                        <a href="index.html">Angela Veljanovska</a>
+                        <a href="pages/index-mk.html" class="lang lang1">
+                            <img src="../img/republic-of-macedonia.png" alt="">
+                        </a>
+                        <a href="index.html" class="lang lang2">
+                            <img src="../img/united-kingdom.png" alt="">
+                        </a>
+                    </div>	
+                    <div class="menu">
+                        <a href="#services" class="nav-link">Services</a>
+                        <a href="#about" class="nav-link">About me</a>
+                        <a href="#work" class="nav-link">My Projects</a>
+                        <a href="#contact" class="nav-link">Contact me</a>
+                    </div>
+                    <div class="menu-btn">
+                        <i class="fa-solid fa-ice-cream"></i>
+                    </div>
+                </nav>
+            </div>
+        </header>
+	<section id="hero-section">
+		<div class="container">
+			<div class="row align-center">
+				<div class="col-50"></div>
+				<div class="col-50">
+					<div class="hero-content">
+						<h1 class="hero-title">I'm Angela Veljanovska. A Web Developer based in Ohrid.</h1>
+						<p class="hero-text">If you are sick of slow websites that has hundred times seen template you are on the right place, I create lightspeed performance websites with ease to use and modern user interface.</p>
+						<button class="btn scroll">
+							<a href="#services">Scroll for more</a>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="services">
+		<div class="container">
+			<div class="row">
+				<div class="col-30">
+					<p class="upper-text">Services</p>
+					<h2 class="section-title">Skillset</h2>
+				</div>
+				<div class="col-70">
+					<div class="grid">
+						<div class="col">
+							<img src="../img/responsive.png" alt="">
+							<h3 class="service-title">Respnsive Web Desgin</h3>
+							<p class="service-text">I excel in creating visually appealing and user-friendly websites that seamlessly adapt to various devices and screen sizes.</p>
+						</div>
+						<div class="col">
+							<img src="../img/computer.png" alt="">
+							<h3 class="service-title">Modern User Interface</h3>
+							<p class="service-text">I specialize in crafting sleek and intuitive user interfaces that leave a lasting impression on your website visitors.</p>
+						</div>
+						<div class="col">
+							<img src="../img/fast.png" alt="">
+							<h3 class="service-title">Speed and Security</h3>
+							<p class="service-text">I prioritize the performance and security of your website by implementing efficient coding practices.</p>
+						</div>
+						<div class="col">
+							<img src="../img/mobile-development.png" alt="">
+							<h3 class="service-title">App Development</h3>
+							<p class="service-text">From conceptualization to deployment, I specialize in crafting customized and feature-rich applications</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="about">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-60 bg-pink">
+					<div class="about-content">
+						<p class="upper-text"  style="color: black">About me</p>
+						<h2 class="section-title">Introduction</h2>
+						<p class="section-text"> 
+							Greetings! I'm delighted to introduce myself as a passionate and dedicated web developer based in Ohrid, Macedonia. I study at the esteemed "Faculty of Computer Science and Engineering - FINKI."
+							Despite being young in the industry, my enthusiasm and commitment to my craft drive me to deliver impressive results. I have a keen eye for detail, striving to create visually stunning and functional websites that provide an exceptional user experience. I find immense joy in transforming ideas into reality through elegant code and innovative design.
+						</p>
+						<button class="btn black">
+							<a href="https://www.instagram.com/aveljanovskaa/" target="_blank">Follow me on IG</a>
+						</button>
+					</div>
+				</div>
+				<div class="col-40 about-img"></div>
+			</div>
+		</div>
+	</section>
+	<section id="work">
+		<div class="container">
+			<div class="row">
+				<div class="col-50">
+					<div class="work-small">
+						<p class="upper-text">My projects</p>
+						<h2 class="section-title w-70">Work that I've done for the past 2 years</h2>
+					</div>
+                    <div class="card">
+                        <a href="https://bonusads.agency" target="_blank">
+                            <img src="img/bonusads.png" alt="">
+                            <div class="card-body">
+                                <h3 class="work-title">Bonuasads - SMMA</h3>
+                                <p class="work-text">Bonuasads is a cutting-edge social media marketing agency (SMMA) project that showcases the power of digital advertising. With a team of talented marketing professionals, we specialize in helping businesses grow their online presence and reach their target audience effectively. Through strategic planning, innovative ad campaigns, and data-driven analytics, we create tailored solutions to maximize brand visibility, generate leads, and increase conversions. Bonuasads prides itself on delivering measurable results and driving tangible business growth for our clients.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="https://cryptoconverter.azurewebsites.net/" target="_blank">
+                            <img src="img/convertor.png" alt="">
+                            <div class="card-body">
+                                <h3 class="work-title">Crypto Convertor</h3>
+                                <p class="work-text">Crypto Convertor is an innovative mobile application designed for crypto enthusiasts and investors. With this app, users can effortlessly convert various cryptocurrencies into their desired fiat currencies or other digital assets. Offering real-time exchange rates and supporting a wide range of cryptocurrencies. Stay ahead in the crypto market with Crypto Convertor..</p>
+                            </div>
+                        </a>
+                    </div>
+				</div>
+				<div class="col-50">
+                    <div class="card">
+                        <a href="https://mydentalist.webflow.io" target="_blank">
+                            <img src="img/dentist.png" alt="">
+                            <div class="card-body">
+                                <h3 class="work-title">Dentist Website</h3>
+                                <p class="work-text">Mydentist is a comprehensive dentist website designed to provide exceptional dental care services to patients of all ages. With a user-friendly interface and informative content, the website aims to create a comfortable online experience for visitors. From general dentistry and preventive care to cosmetic dentistry and specialized treatments, Mydentist offers a wide range of services to cater to individual oral health needs. Our highly skilled team of dentists and friendly staff are committed to delivering top-quality care, ensuring patients maintain optimal oral hygiene and achieve beautiful, healthy smiles.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="https://neward.webflow.io" target="_blank">
+                            <img src="img/neward.png" alt="">
+                            <div class="card-body">
+                                <h3 class="work-title">Finacial Website</h3>
+                                <p class="work-text">Neward is a dynamic financial website that offers valuable resources and expert insights to help individuals and businesses navigate the complex world of finance. Whether you're a seasoned investor or a novice looking to enhance your financial literacy, Neward provides a wealth of information on topics such as investment strategies, financial planning, market trends, and wealth management. Our goal is to empower users with the knowledge and tools they need to make informed financial decisions, build wealth, and achieve long-term financial success.</p>
+                            </div>
+                        </a>
+                    </div>
+					<div class="work-small">
+						<button class="work-btn">
+							<a href="#contact">Let's chat</a>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-50">
+					<p class="upper-text">Contact</p>
+					<h2 class="section-title">Let's talk business</h2>
+					<p class="secton-text" style="width: 90%;">Now that you know a lot about me, let me know if you are interested to work with me. Wether you have a question or you want to share an idea with me, feel free to contact me.</p>
+				</div>
+				<div class="col-50">
+					<form>
+						<label for="name">Name:</label><br>
+						<input type="text" class="input-form" id="name" placeholder="Enter your name..."><br>
+						<div class="errormsg" id="nameError"></div><br>
+						<label for="email">Email:</label><br>
+						<input type="email" class="input-form" id="email" placeholder="Enter your email..."><br>
+						<div class="errormsg" id="emailError"></div><br>
+						<label for="message">Message:</label><br>
+						<textarea id="message" class="input-form" cols="30" rows="5" placeholder="Enter your message..."></textarea>
+						<div class="errormsg" id="messageError"></div>
+						 <button type="button" class="submit-btn" id="mail-btn">Let's get started</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+        <div class="container">
+            <div class="row align-center justify-between">
+                <div class="col-33">
+                    <p class="footer-title">Angela.V</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/angela.veljanovska.1" target="_blank" class="social-link" id="fb">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/aveljanovskaa/" target="_blank" class="social-link" id="ig">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://github.com/angelavel03" target="_blank" class="social-link" id="git">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-33" style="text-align: center;">
+                    <div class="footer-info">
+                        <p>All Rights Reserved &copy; Coypright 2023</p>
+                        <p class="authot">Created by Angela Veljanovska</p>
+                    </div>
+                </div>
+                <div class="col-33">
+                    <div class="footer-logo">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+	</body>
+</html>
